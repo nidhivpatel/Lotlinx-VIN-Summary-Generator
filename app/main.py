@@ -8,7 +8,7 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Load data once at startup
+# Load data once at the start
 DATA = load_data("app/data/sample_data.csv")
 
 @app.get("/vehicle/{vin}")
