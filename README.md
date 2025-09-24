@@ -27,28 +27,39 @@ In short, this project brings together **data engineering, model integration, an
 ```bash
 git clone <this_repository_url>
 cd <this_repository_name>
+```
 
-2. Set up Environment Variables 
+### 2. Set up Environment Variables 
 (For this challenge submission, I provided HF_TOKEN in the email, copy & paste that token here.)
 
 Create a .env file in the project root:
+```bash
 HF_TOKEN=your_huggingface_api_token
+```
 
-3. Run Locally (Without Docker)
+### 3. Run Locally (Without Docker)
 
-Install dependencies
+-> Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-Run locally
+-> Run locally
+```bash
 uvicorn app.main:app --reload
+```
 
-4. Run with Docker 
+### 4. Run with Docker 
 
-Build image
+-> Build image
+```bash
 docker build --no-cache -t lotlinx-vehicle .
+```
 
-Run container
+-> Run container
+```bash
 docker run -p 8000:8000 --env-file .env lotlinx-vehicle
+```
 
 ---
 
