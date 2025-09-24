@@ -1,5 +1,6 @@
 # Lotlinx Vehicle Summary API 🚗
 
+
 ## Project Overview
 I built this project as part of the **Lotlinx Automotive AI Fellowship Challenge** for the **Junior AI/ML Developer** position to showcase my practical coding skills, problem-solving ability in a relevant domain, and experience integrating with LLMs. The goal was to take raw vehicle data from a CSV file and, for any given VIN, and generate a concise market summary along with a data-driven risk score.
 
