@@ -86,10 +86,10 @@ docker run -p 8000:8000 --env-file .env lotlinx-vehicle
 4. The API then returns a JSON response with the VIN, summary, risk score, and reasoning.
 
 ### Output Screenshot of Run Locally (Without Docker)
-![Run Locally](Output_SS/Run_Locally.png)
+![Run Locally](Output_ScreenShots/Run_Locally.png)
 
 ### Output Screenshot of Run with Docker
-![Run with Docker](Output_SS/Run_Docker.png)
+![Run with Docker](Output_ScreenShots/Run_Docker.png)
 
 ---
 
