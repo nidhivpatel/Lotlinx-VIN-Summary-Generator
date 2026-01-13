@@ -1,5 +1,5 @@
 fastapi
 uvicorn
-pandas
 huggingface_hub
+pandas
 dotenv

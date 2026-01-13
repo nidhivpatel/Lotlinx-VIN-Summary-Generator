@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException
-from app.utils import load_data, preprocess_record, calculate_risk_score
 from app.model import generate_summary_and_reasoning
+from app.utils import load_data, preprocess_record, calculate_risk_score
+
 
 app = FastAPI(
     title="Vehicle Summary API",

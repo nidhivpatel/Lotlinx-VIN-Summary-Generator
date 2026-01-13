@@ -9,7 +9,7 @@ def load_data(path: str):
     return data
 
 def preprocess_record(record: dict):
-    # Clean numeric fields
+    # Clean numeric fields and convert to appropriate types
     processed = dict(record)
 
     # Price -> float
