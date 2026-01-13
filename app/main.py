@@ -3,7 +3,7 @@ from app.utils import load_data, preprocess_record, calculate_risk_score
 from app.model import generate_summary_and_reasoning
 
 app = FastAPI(
-    title="Lotlinx Vehicle Summary API",
+    title="Vehicle Summary API",
     description="API to generate vehicle insights using CSV data + LLM",
     version="1.0.0"
 )

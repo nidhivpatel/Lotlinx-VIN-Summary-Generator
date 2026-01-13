@@ -1,8 +1,8 @@
-# Lotlinx Vehicle Summary API 🚗
+# Vehicle Summary Generator API 🚗
 
 
 ## Project Overview
-I built this project as part of the **Lotlinx Automotive AI Fellowship Challenge** for the **Junior AI/ML Developer** position to showcase my practical coding skills, problem-solving ability in a relevant domain, and experience integrating with LLMs. The goal was to take raw vehicle data from a CSV file and, for any given VIN, and generate a concise market summary along with a data-driven risk score.
+I built this project to showcase my practical coding skills, problem-solving ability in a Vehicle industry domain, and experience integrating with LLMs. The goal was to take raw vehicle data from a CSV file and, for any given VIN, and generate a concise market summary along with a data-driven risk score.
 
 To solve this, I used **FastAPI** to design a clean and lightweight RESTful service, **pandas** to handle and preprocess the CSV data, and a **custom risk scoring heuristic** to capture important business signals (like days_on_lot, price_to_market, vdp_views, etc.). On top of that, I integrated with the **Mistral-7B LLM via Hugging Face Inference API** to generate natural language summaries and reasonings. The entire application is **containerized with Docker**, making it easy to set up and run anywhere.  
 
@@ -97,7 +97,7 @@ docker run -p 8000:8000 --env-file .env lotlinx-vehicle
 
 - Risk score is a heuristic approximation and may differ across VINs.
 - LLM output depends on Hugging Face’s inference service availability.
-- This project is for demonstration purposes within the Lotlinx AI/ML Fellowship assessment.
+
 
 
 
